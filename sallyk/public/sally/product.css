@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+}
+.container-fluid{
+    background: pink;
+}
+
+.container-fluid:hover{
+    background: rgb(255, 192, 245);
+}
+.to-the-right{
+     width: 45%;
+}
+.to-the-left{
+     float: right; 
+     width: 55%;
+}
+.bars{
+    background-color:purple}
+#myNavbar{
+    float: right; width: 55%;}
+.log{
+    width: 120px;
+    height: 80px;
+    margin-top: -35px;
+}
+@media (min-width: 981px){
+    .least{
+       display: none;
+    }}
+    @media (max-width: 980px){
+        .least{
+           display: none;
+        }}
+        @media (min-width: 981px){
+            .list{
+                 color: black;
+                 font-family: helvetica;
+                 font-size: 10px;
+                 font-weight: bold;
+            }}
+            @media (max-width: 980px){
+                .list{
+                    color: black;
+         text-decoration: overline underline 2px;
+        text-decoration-color: purple;
+        font-weight: bold;
+        font-size: 10px;
+                }}
+
+                .product{
+                    color: whitesmoke;
+                    text-align: center;
+                    font-family: verdana;
+                }
+
+               .product_page{
+                     background: white;
+               }
+
+                 .control_it{
+                     height: 250px;
+                     opacity: 1.1;
+                 }
+                 .control_it:hover{
+                    zoom: 1.1;
+                    cursor: pointer;
+                    transition: transform 1.2s;
+                    transform: scale(1.1);
+                }
+                .control_its{
+                    height: 250px;
+                    width: 250px;
+                    
+                }
+                .control_its:hover{
+                    zoom: 1.1;
+                    cursor: pointer;
+                    transition: transform 1.2s;
+                    transform: scale(1.1);
+                }
+                @media (max-width: 980px){
+                    .control_it{
+                         height: 250px;
+                    }}
+                    @media (max-width: 980px){
+                        .mute{
+                             width: 70%;
+                             margin-left: auto;
+                             margin-right: auto;
+                        }}
+                        .cf {
+                            position:relative;
+                            margin:0 auto;
+                          }
+                          
+                          .cf img {
+                            position:absolute;
+                            left:0;
+                            -webkit-transition: opacity 2s ease-in-out;
+                            -moz-transition: opacity 1s ease-in-out;
+                            -o-transition: opacity 1s ease-in-out;
+                            transition: opacity 2s ease-in-out;
+                          }
+                          
+                          .cf img.top:hover {
+                            opacity:0;
+                          }
+                          #mix{
+                              text-align: center;
+                              font-family: roboto;
+                              color: white;
+                          }
+                          .correct{
+                              color: white;
+                          }
+                          .correct:hover{
+                            color: green;
+                            text-decoration: none;
+                        }
+                .foot{
+                    width: 80px; 
+                    height: 60px; 
+                    float: left; 
+                    margin-top: 35px;
+               }
+               .footer{
+                    text-align: center; 
+                    width: 8%; 
+                    margin-left: auto; 
+                    margin-right: auto;
+               }
+               .footing{
+                    color: white; 
+                    text-align: center;
+               }
+               .connt{
+                    margin-top: 50px;
+               }
+               .final{
+                   color:white;
+                   text-decoration: none;
+               }
+               .final:hover{
+                    color:white;
+                   text-decoration: none;
+               }

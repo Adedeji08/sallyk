@@ -1,0 +1,18 @@
+﻿body {
+}
+
+.imgdiv{height:350px; background-color:#337ab7;}
+
+#Offer{margin-bottom:40px;}
+
+#h3C{font-size:20px;}
+
+@media only screen and (min-width:400px) and (max-width:991px) {
+    .Logo_T{padding:15px 2px}
+}
+
+.slidingimg{width:100%;}
+
+.side_img_div{display:none;}
+
+.stage_ranking_div{padding-left:8px; padding-right:8px;}
